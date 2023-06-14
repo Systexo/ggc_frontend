@@ -1304,6 +1304,23 @@ section {
 /*--------------------------------------------------------------
 # Our Team Section
 --------------------------------------------------------------*/
+
+.dan {
+  margin: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .dan {
+    margin: 25px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .dan {
+    margin: 0;
+  }
+}
+
 .team .member {
   position: relative;
 }
@@ -2575,6 +2592,16 @@ section {
   font-size: 14px;
   padding: 80px 0 60px 0;
   position: relative;
+}
+  
+.footer-info-logo {
+  display: flex;
+  align-items: center;
+}
+
+.footer-info-logo img {
+  max-width: 100%;
+  height: auto;
 }
 
 .footer:before {
